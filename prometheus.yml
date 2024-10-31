@@ -1,0 +1,9 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: "docease_metrics"
+    scrape_interval: 10s
+
+    static_configs:
+      - targets: ["https://server-prod-4z1n.onrender.com"]
