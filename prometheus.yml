@@ -6,4 +6,4 @@ scrape_configs:
     scrape_interval: 10s
 
     static_configs:
-      - targets: ["https://server-prod-4z1n.onrender.com"]
+      - targets: ["https://chat-app-group-bse24-13-9fuu.onrender.com"]
